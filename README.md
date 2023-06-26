@@ -35,3 +35,30 @@ Questions
 
 5.How can the organization leverage payment methods, contract terms, and billing preferences to reduce churn?
 
+Data Collection and Preparation
+
+The data was colleceted from three separate channels. That is from SQL database, onedrive and Azubi git-hub repository. The data was then concatenated into a single dataset. The data was cleaned for consistency and completeness. 
+
+Observations from previewing the data set
+
+There were some missing values in some columns.
+The columns customer ID and gender were dropped because they had no significance in the analysis.
+Some columns had false, no , true, yes values. false and true values were replaced with no and yes values.
+
+Conclusion and Recommendations
+
+Offer Flexible Payment Methods: Provide customers with a variety of payment options such as electronic check, mailed check, bank transfer (automatic), and credit card (automatic). This allows customers to choose the payment method that suits them best, increasing convenience and reducing the likelihood of churn due to payment-related issues.
+
+Incentivize Long-Term Contracts: Encourage customers to sign up for longer contract terms (e.g., one year or two years) by offering benefits such as discounted rates, additional services, or loyalty rewards. Longer contracts provide stability and commitment, making customers less likely to churn.
+
+Personalize Billing Preferences: Allow customers to choose their billing preferences, such as paperless billing or traditional paper billing. Some customers prefer the convenience of electronic billing, while others may prefer physical copies. By accommodating individual preferences, the organization can enhance customer satisfaction and reduce churn.
+
+Analyze Customer Behavior and Preferences: Utilize customer data to analyze patterns and identify correlations between payment methods, contract terms, billing preferences, and churn. Look for trends or insights that indicate specific combinations of these factors that are associated with higher or lower churn rates. This analysis can help the organization tailor their retention strategies and target specific customer segments.
+
+Proactive Retention Strategies: Implement proactive measures to prevent churn. For example, identify customers who are approaching the end of their contract term and offer them incentives to renew or upgrade their services. Additionally, provide personalized offers or promotions to customers who have shown signs of potential churn based on their payment patterns or billing preferences.
+
+Improve Customer Support: Ensure that customer support services are readily available to address any payment-related concerns or billing inquiries. Prompt and effective resolution of customer issues can help build trust and loyalty, reducing the likelihood of churn.
+
+Continuous Monitoring and Optimization: Regularly monitor and analyze customer feedback, behavior, and churn rates associated with different payment methods, contract terms, and billing preferences. Continuously optimize and refine the organization's strategies based on the insights gained, aiming to align offerings with customer preferences and needs.
+
+By leveraging payment methods, contract terms, and billing preferences in these ways, the organization can enhance customer satisfaction, increase retention rates, and ultimately reduce churn.
