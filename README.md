@@ -45,7 +45,40 @@ There were some missing values in some columns.
 The columns customer ID and gender were dropped because they had no significance in the analysis.
 Some columns had false, no , true, yes values. false and true values were replaced with no and yes values.
 
+Machine Learning Modelling
+
+Onehotencoding was performed on categorical columns. The data was then split into test and 
+train. Then missing values in numerical columns was imputed using the simple imputer method.
+SMOTE was applied to balance the train data set. The balanced features and target variable were 
+then concatenated into a single DataFrame. The following models; KNeighboursClassifier,
+GradientBoostingClassifier, AdaBoostClassifier and RandomForestClassifier were created and 
+used to train the data. The following metrics were then employed; accuracy, precision, recall, f1 
+score and f2 score. To achieve maximum performance, hyperparameter tuning was employed.
+The f1 score metric was used to select the best models as follows:
+Model Name F1_Score
+GradientBoostingClassifier 0.643312
+RandomForestClassifier 0.632836
+AdaBoostClassifier 0.621387
+KNeighborsClassifier 0.550376
+
+
+
+
 Conclusion and Recommendations
+
+Based on the analysis of the graph, it is evident that customer churn is influenced significantly by 
+two key factors: tenure and monthly charges. Tenure has been identified as the highest contributor 
+to customer churn, indicating that customers with shorter contract terms, particularly those on a 
+month-to-month basis, are more likely to terminate their contracts compared to those with longerterm commitments. Furthermore, monthly charges also play a significant role, suggesting that 
+customers with higher monthly charges are more prone to churn.
+Additionally, the graph highlights that the electronic check payment method has the highest churn 
+rate among the different payment methods. This implies that customers using electronic checks as 
+their payment method are more likely to churn compared to those using alternative payment 
+options.
+Based on the findings, it is crucial for the company to focus on addressing the issues related to 
+customer churn, particularly in relation to tenure, monthly charges, and payment methods. Here 
+are some recommendations to mitigate churn:
+
 
 Offer Flexible Payment Methods: Provide customers with a variety of payment options such as electronic check, mailed check, bank transfer (automatic), and credit card (automatic). This allows customers to choose the payment method that suits them best, increasing convenience and reducing the likelihood of churn due to payment-related issues.
 
